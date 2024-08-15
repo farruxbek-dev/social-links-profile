@@ -1,0 +1,63 @@
+#container {
+  width: 306px;
+  height: 510px;
+  background-color: rgb(30,30,30);
+  border-radius: 13px;
+  display: flex;
+  justify-content: start;
+  padding: 30px;
+  padding-top: 38px;
+  flex-direction: column;
+  align-items: center;
+}
+
+#avatar {
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  margin-bottom: 26px;
+  cursor: pointer;
+}
+#name {
+  color: white;
+  font-size: 23px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+#location {
+  color: rgb(190,217,112);
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 26px;
+}
+#bio {
+  color: white;
+  font-size: 13px;
+  margin-bottom: 24px;
+}
+#container button {
+  width: 290px;
+  height: 60px;
+  color: white;
+  background-color: rgb(50,50,50);
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 14px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+#container button:hover {
+  background-color: rgb(196,248,42);
+  color: rgb(30,30,30);
+}
+
+@media (max-width: 500px) {
+  #container {
+    width: 250px;
+  }
+  #container button {
+    width: 250px;
+  }
+}
